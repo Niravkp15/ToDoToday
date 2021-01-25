@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		32AB286A25BF675A004B6810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB286925BF675A004B6810 /* AppDelegate.swift */; };
 		32AB286C25BF675A004B6810 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB286B25BF675A004B6810 /* SceneDelegate.swift */; };
-		32AB286E25BF675A004B6810 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB286D25BF675A004B6810 /* ViewController.swift */; };
+		32AB286E25BF675A004B6810 /* TodoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB286D25BF675A004B6810 /* TodoListViewController.swift */; };
 		32AB287125BF675A004B6810 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32AB286F25BF675A004B6810 /* Main.storyboard */; };
 		32AB287325BF675C004B6810 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32AB287225BF675C004B6810 /* Assets.xcassets */; };
 		32AB287625BF675C004B6810 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32AB287425BF675C004B6810 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		32AB286625BF675A004B6810 /* ToDoToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32AB286925BF675A004B6810 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32AB286B25BF675A004B6810 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32AB286D25BF675A004B6810 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32AB286D25BF675A004B6810 /* TodoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewController.swift; sourceTree = "<group>"; };
 		32AB287025BF675A004B6810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32AB287225BF675C004B6810 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32AB287525BF675C004B6810 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				32AB286925BF675A004B6810 /* AppDelegate.swift */,
 				32AB286B25BF675A004B6810 /* SceneDelegate.swift */,
-				32AB286D25BF675A004B6810 /* ViewController.swift */,
+				32AB286D25BF675A004B6810 /* TodoListViewController.swift */,
 				32AB286F25BF675A004B6810 /* Main.storyboard */,
 				32AB287225BF675C004B6810 /* Assets.xcassets */,
 				32AB287425BF675C004B6810 /* LaunchScreen.storyboard */,
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32AB286E25BF675A004B6810 /* ViewController.swift in Sources */,
+				32AB286E25BF675A004B6810 /* TodoListViewController.swift in Sources */,
 				32AB286A25BF675A004B6810 /* AppDelegate.swift in Sources */,
 				32AB286C25BF675A004B6810 /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,6 +288,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ToDoToday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,6 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ToDoToday/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
