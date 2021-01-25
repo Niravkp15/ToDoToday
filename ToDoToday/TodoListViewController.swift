@@ -29,6 +29,22 @@ class TodoListViewController: UITableViewController {
         cell.textLabel?.text = itemArray[indexPath.row]
         return cell
     }
+    
+    //MARK: - TableView Delegate Methods
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       
+        //Adds or Remove checkmark in tableView
+        if tableView.cellForRow(at: indexPath)?.accessoryType == .checkmark {
+            tableView.cellForRow(at: indexPath)?.accessoryType = .none
+        } else {
+            tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
+        }
+        
+        //Display a quick animated highlight on the cell that is selected
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+
 }
 
 
